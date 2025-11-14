@@ -1,3 +1,4 @@
+# BEEE-LAB
 EXPT NO: 1	VERIFICATION OF KIRCHHOFF’S LAWS
 AIM
 a.   To verify Kirchhoff’s Voltage Law (KVL) for the given circuit. 
@@ -40,62 +41,58 @@ b.  KCL:
 CIRCUIT DIAGRAM:
 
 CIRCUIT DIAGRAM:
-a.   KVL:
-<img width="1116" height="686" alt="KVL" src="https://github.com/user-attachments/assets/8f568c2d-1b34-40d6-8f95-44555f1ef692" />
-b.  KCL: 
-<img width="1514" height="834" alt="KCL" src="https://github.com/user-attachments/assets/32254794-aa50-4c3a-a128-293cda785720" />
-Calculation:
+
+
 a.   KVL:
 
-$$V=V_1+V_2+V_3$$
+![WhatsApp Image 2025-08-26 at 14 02 00_8fd8e615](https://github.com/user-attachments/assets/16666521-d811-4f9c-b46a-8deed37b8f25)
 
-$$100=IR_1+IR_2+IR_3$$
 
-$$Req=R1+R2+R3$$
 
-$$Req=180$$
-
-$$I=V/Req=100/180$$
-
-$$I=0.556A$$
-
-$$V1=IR1=0.556\times30=16.68V$$
-
-$$V2=IR2=0.556\times50=27.8V$$
-
-$$V3=IR3=0.556\times100=55.6V$$
-
-$$100V=16.68V+27.8V+55.6V$$
-
-$$100V=100V$$
-
-$$Hence Proved$$
 b.  KCL:
-$$I30\Omega=I/50\Omega+I100\Omega$$
-$I30\Omega=(100-V)/30$
-$$I50\Omega=V/50$$
-$$I00\Omega=V/100$$
-$$(100-V)/30=V/50+V/100$$
-$$V=52.63V$$
-$$I30\Omega=(100-52.63)/30=1.58A$$
-$$I50\Omega=52.63/50=1.05A$$
-$$I100\Omega=52.63/100=0.53A$$
-$$-1.58A+1.05A+0.53A=0A$$
-$$Hence Proved$$
+ ![KCL](https://github.com/user-attachments/assets/5dc022e5-ed19-402b-abda-de58c7ffb709)
+
+
+Calculation:
+
+a.   KVL:
+ 
+![WhatsApp Image 2025-08-26 at 14 25 32_7d314d33](https://github.com/user-attachments/assets/d32c3d1a-2f25-450d-a383-bf2243350a50)
+
+
+
+
+![WhatsApp Image 2025-08-26 at 14 14 25_76d67d6e](https://github.com/user-attachments/assets/24267709-89ce-48d3-a672-200c3d960e82)
+
+
+
+
+
+b.  KCL:
+
+
+![WhatsApp Image 2025-08-26 at 14 27 05_3a30fcfe](https://github.com/user-attachments/assets/8e4fff72-8c91-4453-a448-23d15e67ab2c)
+
+
+
+![WhatsApp Image 2025-08-26 at 14 10 42_c6c4fbc8](https://github.com/user-attachments/assets/fc066e3a-c494-4500-92bd-755b1edc7ab3)
+
+
 
 Tabulation:
 
 a.   KVL:
- |KVL|SOURCE(V)|$$V30\Omega$$|$$V50\Omega$$|$$V100\Omega$$|$$V30\Omega+V50\Omega+V100\Omega(V)$$|
- |---- |-----|----|----|---|-----|
- |Theoretical|100|16.68|27.8|55.6|100.05|
- |Practical|100|16.68|27.8|55.6|100.08|
+ 
+![WhatsApp Image 2025-08-26 at 14 21 58_201a13f2](https://github.com/user-attachments/assets/33e915ab-312a-49c4-913b-574eb12e7240)
+
+
 
 b.  KCL:
-|KCL|$$130\Omega$$|$$I50\Omega$$|$$I100\Omega$$|VA|
-|----|----|----|-----|----|
-|Theoretical|-1.58A|1.05A|0.53A|52.63A|
-|practical|-1.58A|1.05A|0.53A|52.63A|
+
+![WhatsApp Image 2025-08-26 at 14 22 09_4feadaf1](https://github.com/user-attachments/assets/a95f985d-d821-4763-b819-efaa99eccea3)
+
+
 
 RESULT:
+
 Thus, for the given circuit, Kirchhoff’s Laws, (a) KVL and (b) KCL are proved.
